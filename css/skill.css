@@ -1,0 +1,31 @@
+.skill {
+    margin-bottom: 30px;
+}
+
+.skill__titulo {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+
+.skill__lista {
+    display: flex;
+}
+
+.skill__itens {
+    border: 1px solid black;
+    list-style-type: none;
+    text-align: center;
+    width: 20%;
+    height: 90px;
+    margin-right: 10px;
+
+}
+
+.skill__itens:hover {
+    background-color: lightgreen;
+}
+
+.skill__logo {
+    width: 20%;
+    margin-top: 10px;
+}

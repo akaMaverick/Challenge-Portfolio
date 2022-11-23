@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/sobre.css">
+    <link rel="stylesheet" href="./css/skill.css">
+    <link rel="stylesheet" href="./css/formacao.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="navegacao">
+            <ul class="navegacao__lista">
+                <li class="navegacao__itens"><a href="#" class="navegacao__links">Home</a></li>
+                <li class="navegacao__itens"><a href="#sobre" class="navegacao__links">Sobre mim</a></li>
+                <li class="navegacao__itens"><a href="#formacao" class="navegacao__links">Formação Acadêmica</a></li>
+                <li class="navegacao__itens"><a href="#projetos" class="navegacao__links">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="principal">
+        <section class="introducao">
+            <div class="introdudcao__texto">
+                <h1 class="introducao__titulo">Olá, mundo! Meu nome é Marlon Maverick.</h1>
+                <p class="introducao__paragrafo">Estou estudando Análise e Desenvolvimento de Sistemas, faço parte do programa Geração Caldeira do Instituto Caldeira e do programa Oracle Next Education.</p>
+                <ul class="introducao__lista">
+                    <li class="lista__itens"><a href="https://github.com/akaMaverick" class="lista__links" target="_blank">GitHub ↗️ </a></li>
+                    <li class="lista__itens"><a href="https://www.linkedin.com/in/marlon-maverick-vasconcelos-machado/" class="lista__links" target="_blank">LinkedIn ↗️ </a></li>
+                    <li class="lista__itens"><a href="https://www.instagram.com/bahmaverick/" target="_blank" class="lista__links">Instagram ↗️ </a></li>
+                </ul>
+            </div>
+            <div class="introducao__foto"><img src="./img/Foto.jpeg" alt="" class="foto"></div>
+        </section>
+        <section class="sobre" id="sobre">
+            <h2 class="sobre__titulo">Sobre mim</h2>
+            <p class="sobre__paragrafo">Sou formado em Gestão de Turismo e curso atualmente análise e desenvolvimento de sistemas, comecei a estudar a área de turismo, pois sempre tive uma ligação muito forte com idiomas, no qual tenho um dominío avançado da língua inglesa  e uma básica visão da língua árabe.</p>
+            <p class="sobre__paragrafo">Desde pequeno sempre estive envolvido em práticas esportivas, o que que me fez desenvolver minhas habilidades de trabalho em grupo, pontualidade e  comunicação, o que me levou a ter experiência como voluntário no Festival do Japão, na área esportiva nos anos de 2018, 2019 e 2022. Tive experiência também como auxiliar de escritório em uma empresa de ar-condicionado em que tive oportunidade de fazer parte da área administrativa e saber realizar gestão de tempo. </p>
+            <p class="sobre__paragrafo">Tenho conhecimento em JavaScript, CSS, HTML e uma breve visão de Python. Sendo o meu objetivo atualmente conseguir uma oportunidade na área de programação para evoluir meus conhecimentos técnicos e profissionais.</p>
+        </section>
+        <section class="skill">
+            <h2 class="skill__titulo">Skills</h2>
+            <ul class="skill__lista">
+                <li class="skill__itens">
+                    <img src="./img/js-logo.png" alt="" class="skill__logo">
+                    <p>JavaScript</p>
+                </li>
+                <li class="skill__itens">
+                    <img src="./img/html-logo.png" alt="" class="skill__logo">
+                    <p>HTML 5</p>
+                </li>
+                <li class="skill__itens">
+                    <img src="./img/css-logo.png" alt="" class="skill__logo">
+                    <p>CSS</p>
+                </li>
+                <li class="skill__itens">
+                    <img src="./img/github-logo.png" alt="" class="skill__logo">
+                    <p>GitHub</p>
+                </li>
+                <li class="skill__itens">
+                    <img src="./img/python-logo.svg" alt="" class="skill__logo">
+                    <p>Phyton</p>
+                </li>
+                
+            </ul>
+        </section>
+        <section class="formacao" id="formacao">
+            <h2 class="formacao__titulo">Formação Acadêmica</h2>
+            <ul class="formacao__lista">
+                <li class="formacao__itens formacao__itens--turismo">
+                    <h3 class="formacao__itens__titulo">Formação Gestão de Turismo</h3>
+                    <p class="formacao__itens__paragrafo">2019 - Uniasselvi</p>
+                </li>
+                <li class="formacao__itens formacao__itens--codigo">
+                    <h3 class="formacao__itens__titulo">Formação Análise e Desenvolvimento de Sistemas</h3>
+                    <p class="formacao__itens__paragrafo">Em andamento - Uninter</p>
+                </li>
+                <li class="formacao__itens formacao__itens--frontend">
+                    <h3 class="formacao__itens__titulo">Formação Front-End</h3>
+                    <p class="formacao__itens__paragrafo">2022 - Alura</p>
+                </li>
+            </ul>
+        </section>
+        <section class="projetos" id="projetos">
+            <h2 class="projetos__titulo">Projetos</h2>
+                <ul class="projeto__lista">
+                    <li class="projeto__itens">
+                        <img src="./img/projetoBandeira.png" alt="" class="projetos__fotos">
+                        <div class="projeto__divisao">
+                            <h3 class="projeto__titulo">Projeto Bandeira</h3>
+                            <p class="projeto__paragrafo">Projeto revela a bandeira do país digitado.</p>
+                            <a href="https://akamaverick.github.io/Projeto-Bandeira/" target="_blank" class="projeto__botao">Visualizar projeto</a>
+                        </div>
+                    </li>
+                    <hr width="100%">
+                    <li class="projeto__itens">
+                        <div class="projeto__divisao">
+                            <h3 class="projeto__titulo">Projeto Decodificador</h3>
+                            <p class="projeto__paragrafo">Projeto que visa codificar e decodificar o texto digitado.</p>
+                            <a href="https://akamaverick.github.io/Challenge-Codificador-Decodificador-One-Sprint1/" target="_blank" class="projeto__botao">Visualizar projeto</a>
+                        </div>
+                        
+                        <img src="./img/projetoDecodificador.png" alt="" class="projetos__fotos">
+                    </li>
+                    <hr width="100%">
+                    <li class="projeto__itens">
+                        <img src="./img/projetoForca.png" alt="" class="projetos__fotos">
+                        <div class="projeto__divisao">
+                            <h3 class="projeto__titulo">Projeto jogo da Forca</h3>
+                            <p class="projeto__paragrafo">Projeto que monta um básico jogo da forca para os usuários se divertirem e que é possivel adicionar palavras.</p>
+                            <a href="#" class="projeto__botao">Visualizar projeto</a>
+                        </div>
+                    </li>
+                    <hr width="100%">
+                </ul>
+        </section>
+    </main>
+    <footer>Maverick&copy;</footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.sobre {
+    margin-bottom: 30px;
+}
+
+.sobre__titulo {
+    font-family: 'Acme', sans-serif;
+}
+
+.sobre__paragrafo {
+    margin-bottom: 10px;
+    padding-right: 5px;
+    letter-spacing: 1px;
+}

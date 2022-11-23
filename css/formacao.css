@@ -1,0 +1,51 @@
+.formacao__titulo {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+
+.formacao__lista {
+    display: flex;
+    
+   
+}
+
+.formacao__itens {
+    list-style-type: none;
+    width: 33%;
+    border: 1px solid black;
+    margin-right: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.formacao__itens--turismo {
+    background: url(../img/turismo.jpg);
+    background-position: center;
+}
+
+.formacao__itens--codigo {
+    background: url(../img/codigo.jpg);
+    background-position: center;
+}
+
+.formacao__itens--frontend {
+    background: url(../img/frontend.jpg);
+    background-position: center;
+}
+
+.formacao__itens__titulo, .formacao__itens__paragrafo {
+    background-color: white;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.formacao__itens__titulo {
+   margin-bottom: 0px; 
+}
+
+.formacao__itens__paragrafo {
+    margin-bottom: -5px;
+}

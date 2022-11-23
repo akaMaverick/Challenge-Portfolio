@@ -1,0 +1,61 @@
+.projetos {
+    margin-top: 60px;
+}
+
+.projetos__titulo {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+
+.projeto__lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.projeto__itens {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.projetos__fotos {
+    width: 50%;
+    margin-bottom: 20px;
+    
+}
+
+.projeto__divisao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.projeto__titulo {
+    text-align: center;
+}
+
+.projeto__paragrafo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.projeto__botao {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 1s;
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.projeto__botao:hover {
+    background-color: rgba(0, 0, 0, 0.226);
+    color: red;
+}
