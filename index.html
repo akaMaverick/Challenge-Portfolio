@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/skill.css">
     <link rel="stylesheet" href="./css/formacao.css">
     <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/slide.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -112,7 +113,33 @@
                     </li>
                     <hr width="100%">
                     <li class="projeto__itens">
-                        <img src="./img/projetoForca.png" alt="" class="projetos__fotos">
+                        <div class="container__forca">
+                            <div class="slide__forca">
+                                <div class="slides__forca">
+                                    <div id="voltar__forca" class="btn__forca">
+                                        <i>⬅️</i>
+                                    </div>
+                                    <div id="next__forca" class="btn__forca">
+                                        <i>➡️</i>
+                                    </div>
+                                    <div id="atual__forca" class="imagens__forca">
+                                        <img src="./img/projetoForca0.png" alt="">
+                                    </div>
+                                    <div class="imagens__forca">
+                                        <img src="./img/projetoForca1.png" alt="">
+                                    </div>
+                                    <div class="imagens__forca">
+                                        <img src="./img/projetoForca2.png" alt="">
+                                    </div>
+                                    <div  class="imagens__forca">
+                                        <img src="./img/projetoForca3.png" alt="">
+                                    </div>               
+                                </div>
+                                <div class="mover__forca">
+                                </div>
+                            </div>
+                    
+                        </div>
                         <div class="projeto__divisao">
                             <h3 class="projeto__titulo">Projeto jogo da Forca</h3>
                             <p class="projeto__paragrafo">Projeto que monta um básico jogo da forca para os usuários se divertirem e que é possivel adicionar palavras.</p>
@@ -124,5 +151,6 @@
         </section>
     </main>
     <footer>Maverick&copy;</footer>
+    <script src="./js/code.js"></script>
 </body>
 </html>

@@ -1,0 +1,89 @@
+/*Slide Forca*/
+
+.container__forca {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide__forca {
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.4s;
+}
+
+.slides__forca {
+    display: flex;
+    width: 5244px;
+}
+
+.imagens__forca img {
+    width: 800px;
+    height: 600px;
+}
+
+#atual__forca {
+    transition: all 2s;
+}
+
+.btn__forca {
+    position: absolute;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 1.7em;
+    margin-top: -5px;
+}
+
+.btn__forca:hover {
+    transform: scale(1.5);
+}
+
+#voltar__forca {
+    top: 324%;
+    left: 0%;
+}
+
+#next__forca {
+    color: #fff;
+    top: 324%;
+    right: 34%;
+}
+
+.mover__forca {
+    position: absolute;
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    margin-top: -45px;
+    left: -72px;
+}
+
+.mover__forca div {
+    transition: all 0.5s;
+    border: 3px solid black;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+
+.mover__forca div:hover {
+    background: #fff;
+
+}
+
+.imgAtual__forca {
+    transition: all 0.5s;
+    background: rgb(161, 0, 0);
+}
