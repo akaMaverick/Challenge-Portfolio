@@ -3,6 +3,8 @@ body {
 }
 
 .cabecalho {
+    display: flex;
+    justify-content: space-between;
     background-color: #f3f4e5;
     height: 51px;
 }
