@@ -55,6 +55,8 @@
 
     .formacao__lista {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
 
