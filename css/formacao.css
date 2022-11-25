@@ -49,3 +49,17 @@
 .formacao__itens__paragrafo {
     margin-bottom: -5px;
 }
+
+@media screen and (max-width: 480px) {
+    
+
+    .formacao__lista {
+        flex-direction: column;
+    }
+
+
+    .formacao__itens {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+}

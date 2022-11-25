@@ -29,3 +29,21 @@
     width: 20%;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 480px) {
+
+
+    .skill__lista {
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+
+    .skill__itens {
+        margin: 0 auto 10px auto;
+        width: 80%;
+        height: auto;
+        
+    }
+
+}

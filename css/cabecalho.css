@@ -34,3 +34,34 @@ body {
     background-color: black;
     color: white;
 }
+
+@media screen and (max-width: 480px) {
+
+    .navegacao__itens {
+        margin-top: 15px;
+        text-decoration: underline;
+    }
+
+    .navegacao__itens:nth-last-child(n) {
+        margin-bottom: 20px;
+    }
+    
+    .cabecalho {
+        flex-direction: column;
+        height: auto;
+    }
+    .navegacao__lista{
+        width: auto;
+        font-size: 30px;
+        
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+
+    .navegacao__links {
+        border: none;
+    }
+
+}
