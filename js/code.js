@@ -40,7 +40,11 @@ var balls = document.querySelector('.mover__forca')
                 atual = quant.length - 1
             }
             document.querySelector('.imgAtual__forca').classList.remove('imgAtual__forca');
-            images.style.marginLeft = -800*atual+'px';
+            if(screen.width < 640 || screen.height < 480) {
+                images.style.marginLeft = -450*atual+'px'; }
+                else {
+                    images.style.marginLeft = -800*atual+'px';
+                }
             document.getElementById(atual).classList.add('imgAtual__forca');
         }
 

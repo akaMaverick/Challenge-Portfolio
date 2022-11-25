@@ -87,3 +87,35 @@
     transition: all 0.5s;
     background: rgb(161, 0, 0);
 }
+
+@media screen and (max-width: 480px) {
+
+    .container__forca {
+        width: 70% ;
+        height: 70%;
+    }
+    .imagens__forca img, .slide__forca {
+        width: 450px;
+        height: 200px;
+    }
+
+    .imagens__forca img {
+        margin-left: -15px;
+    }
+
+    #voltar__forca {
+        display: none;
+    }
+
+    #next__forca {
+        display: none;
+    }
+
+    .mover__forca {
+        left: -280px;
+    }
+
+    /*.container__forca {
+        display: none;
+    }*/
+}

@@ -61,7 +61,28 @@
 }
 
 @media screen and (max-width: 480px) {
+    .projeto__divisao  {
+        display: inline-block;
+        text-align: center;
+        margin: 0;
+    }
+
     .projeto__itens {
         flex-direction: column;
+        margin: 0 auto;
     }
+
+    .projeto__botao {
+        width: 50%;
+    }
+
+    .projetos__fotos {
+        margin: 0 auto 20px auto;
+    }
+    
+    .projetos__fotos--baixo {
+        margin-top: 20px;
+    }
+
+    
 }
