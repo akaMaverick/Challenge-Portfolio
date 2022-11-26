@@ -101,7 +101,7 @@
         margin: 0 auto;
     }
     .imagens__bandeira img, .slide__bandeira {
-        width: 250px;
+        width: 300px;
         height: 200px;
     }
 
@@ -118,7 +118,7 @@
     }
 
     .mover__bandeira {
-        left: -366px;
+        left: -311px;
     }
 
     /*.container__forca {
@@ -227,7 +227,7 @@
         
     }
     .imagens__forca img, .slide__forca {
-        width: 250px;
+        width: 300px;
         height: 200px;
     }
 
@@ -248,7 +248,7 @@
     }
 
     .mover__forca {
-        left: -366px;
+        left: -311px;
     }
 
     /*.container__forca {

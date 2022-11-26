@@ -41,7 +41,7 @@ var balls = document.querySelector('.mover__forca')
             }
             document.querySelector('.imgAtual__forca').classList.remove('imgAtual__forca');
             if(screen.width < 640 || screen.height < 480) {
-                images.style.marginLeft = -450*atual+'px'; }
+                images.style.marginLeft = -290*atual+'px'; }
                 else {
                     images.style.marginLeft = -800*atual+'px';
                 }
@@ -93,7 +93,7 @@ var balls = document.querySelector('.mover__forca')
             }
             document.querySelector('.imgAtual__bandeira').classList.remove('imgAtual__bandeira');
             if(screen.width < 640 || screen.height < 480) {
-                imagesBandeira.style.marginLeft = -250*atualBandeira+'px'; }
+                imagesBandeira.style.marginLeft = -290*atualBandeira+'px'; }
                 else {
                     imagesBandeira.style.marginLeft = -800*atualBandeira+'px';
                 }

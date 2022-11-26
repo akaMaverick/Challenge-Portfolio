@@ -69,8 +69,8 @@
 
     .projeto__itens {
         flex-direction: column;
-        margin-left: 0px;
-        margin-right: 85px;
+        margin-left: 36px;
+        margin-right: 56px;
         justify-content: center;
     }
 
