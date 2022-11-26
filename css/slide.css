@@ -1,3 +1,133 @@
+/*Slide Bandeira*/
+.container__bandeira {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide__bandeira {
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.4s;
+}
+
+.slides__bandeira {
+    display: flex;
+    width: 5244px;
+}
+
+.imagens__bandeira img {
+    width: 800px;
+    height: 600px;
+}
+
+#atual__bandeira {
+    transition: all 2s;
+}
+
+.btn__bandeira {
+    position: absolute;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 1.7em;
+    margin-top: -5px;
+}
+
+.btn__bandeira:hover {
+    transform: scale(1.5);
+}
+
+#voltar__bandeira {
+    top: 213%;
+    left: 8%;
+}
+
+#next__bandeira {
+    color: #fff;
+    top: 213%;
+    right: 25.5%;
+}
+
+.mover__bandeira {
+    position: absolute;
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    margin-top: -45px;
+    left: 30px;
+}
+
+.mover__bandeira div {
+    transition: all 0.5s;
+    border: 3px solid black;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+
+.mover__bandeira div:hover {
+    background: #fff;
+
+}
+
+.imgAtual__bandeira {
+    transition: all 0.5s;
+    background: rgb(161, 0, 0);
+}
+
+@media screen and (max-width: 480px) {
+
+    .slide__bandeira {
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .container__bandeira {
+        width: 70% ;
+        height: 70%;
+        margin: 0 auto;
+    }
+    .imagens__bandeira img, .slide__bandeira {
+        width: 450px;
+        height: 200px;
+    }
+
+    .imagens__bandeira img {
+        margin-left: -15px;
+    }
+
+    #voltar__bandeira {
+        display: none;
+    }
+
+    #next__bandeira {
+        display: none;
+    }
+
+    .mover__bandeira {
+        left: -323px;
+    }
+
+    /*.container__forca {
+        display: none;
+    }*/
+}
+
+
+
 /*Slide Forca*/
 
 .container__forca {
@@ -93,10 +223,16 @@
     .container__forca {
         width: 70% ;
         height: 70%;
+        margin: 0 auto;
+        
     }
     .imagens__forca img, .slide__forca {
         width: 450px;
         height: 200px;
+    }
+
+    .slide__forca {
+        margin-right: 10px;
     }
 
     .imagens__forca img {
@@ -112,10 +248,12 @@
     }
 
     .mover__forca {
-        left: -280px;
+        left: -323px;
     }
 
     /*.container__forca {
         display: none;
     }*/
 }
+
+

@@ -69,11 +69,14 @@
 
     .projeto__itens {
         flex-direction: column;
-        margin: 0 auto;
+        margin-left: -127px;
+        margin-right: -127px;
+        justify-content: center;
     }
 
     .projeto__botao {
         width: 50%;
+        margin-bottom: 10px;
     }
 
     .projetos__fotos {

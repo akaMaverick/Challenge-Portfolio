@@ -48,4 +48,56 @@ var balls = document.querySelector('.mover__forca')
             document.getElementById(atual).classList.add('imgAtual__forca');
         }
 
+        //Bandeira
+
+        var ballsBandeira = document.querySelector('.mover__bandeira')
+        var quantBandeira = document.querySelectorAll('.slides__bandeira .imagens__bandeira');
+        var atualBandeira = 0;
+        var imagesBandeira = document.getElementById('atual__bandeira');
+        var nextBandeira = document.getElementById('next__bandeira');
+        var voltarBandeira = document.getElementById('voltar__bandeira');
+
+        for(let i=0; i < quantBandeira.length; i++) {
+            var div = document.createElement('div');
+            div.id = i 
+            ballsBandeira.appendChild(div)
+        }
+
+        document.getElementById('0').classList.add('imgAtual__bandeira');
+
+        var posBandeira = document.querySelectorAll('.mover__bandeira div')
+
+        for(let i = 0; i < posBandeira.length; i++) {
+            posBandeira[i].addEventListener('click', ()=> {
+                atualBandeira = posBandeira[i].id
+                slideBandeira()
+            })
+        }
+
+        voltarBandeira.addEventListener('click', ()=> {
+            atualBandeira--
+            slideBandeira()
+        })
+        
+
+        nextBandeira.addEventListener('click', ()=> {
+            atualBandeira++
+            slideBandeira()
+        })
+
+        function slideBandeira() {
+            if(atualBandeira >= quantBandeira.length) {
+                atualBandeira = 0;
+            } else if ( atualBandeira < 0) {
+                atualBandeira = quantBandeira.length - 1
+            }
+            document.querySelector('.imgAtual__bandeira').classList.remove('imgAtual__bandeira');
+            if(screen.width < 640 || screen.height < 480) {
+                imagesBandeira.style.marginLeft = -450*atualBandeira+'px'; }
+                else {
+                    imagesBandeira.style.marginLeft = -800*atualBandeira+'px';
+                }
+            document.getElementById(atualBandeira).classList.add('imgAtual__bandeira');
+        }
+
         
