@@ -69,8 +69,8 @@
 
     .projeto__itens {
         flex-direction: column;
-        margin-left: -127px;
-        margin-right: -127px;
+        margin-left: 0px;
+        margin-right: 85px;
         justify-content: center;
     }
 
@@ -86,6 +86,5 @@
     .projetos__fotos--baixo {
         margin-top: 20px;
     }
-
     
 }
