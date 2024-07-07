@@ -61,6 +61,17 @@ footer {
     cursor: pointer;
 }
 
+.seccao__contatos {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.seccao__contatos:h1 {
+    font-family: 'Acme', sans-serif;
+}
+
+
+
 @media screen and (max-width: 480px) {
 
     body {
